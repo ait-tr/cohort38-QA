@@ -1,0 +1,10 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/firstSeleniumProject/build.gradle",
+    "code/firstSeleniumProject/src/test/java/FirstSeleniumTests.java",
+    "code/firstSeleniumProject/src/test/java/SecondSeleniumTest.java"
+  ]
+}
