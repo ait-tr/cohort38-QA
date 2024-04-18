@@ -1,0 +1,10 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/findElementProjectQA38/src/test/java/FindElementByTests.java",
+    "code/findElementProjectQA38/src/test/java/BaseTest.java",
+    "code/findElementProjectQA38/build.gradle"
+  ]
+}
