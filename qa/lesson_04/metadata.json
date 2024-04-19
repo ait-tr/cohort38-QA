@@ -1,0 +1,10 @@
+{
+  "plan": "plan.md",
+  "homework": "homework.md",
+  "theory": "theory.md",
+  "code": [
+    "code/seleniumProject/src/test/java/BaseTest.java",
+    "code/seleniumProject/src/test/java/FindElementsByXpath.java",
+    "code/seleniumProject/gradlew"
+  ]
+}
