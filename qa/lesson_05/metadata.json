@@ -1,0 +1,8 @@
+{
+  "plan": "plan.md",
+  "homework": "homework.md",
+  "code": [
+    "code/QA38_Phonebook/src/test/java/com/ait/qa/PhonebookTests.java",
+    "code/QA38_Phonebook/src/test/java/com/ait/qa/BaseTest.java"
+  ]
+}
