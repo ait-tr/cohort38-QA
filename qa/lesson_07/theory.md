@@ -1,0 +1,1 @@
+[Value Object Model](https://docs.google.com/presentation/d/1koZw0cbphBGXVNeJOtfy9yRUG95VH23g/edit?usp=drive_link&ouid=116447005932578256378&rtpof=true&sd=true)
