@@ -1,0 +1,23 @@
+{
+  "plan": "plan.md",
+  "homework": "homework.md",
+  "code": [
+   "code/QA38_Phonebook_v2/src/main/java/core/AppManager.java",
+   "code/QA38_Phonebook_v2/src/main/java/core/TestProperties.java",
+   "code/QA38_Phonebook_v2/src/main/java/extension/RunnerExtension.java",
+   "code/QA38_Phonebook_v2/src/main/java/model/Contact.java",
+   "code/QA38_Phonebook_v2/src/main/java/model/User.java",
+   "code/QA38_Phonebook_v2/src/main/java/page_helpers/BaseHelper.java",
+   "code/QA38_Phonebook_v2/src/main/java/page_helpers/ContactHelper.java",
+   "code/QA38_Phonebook_v2/src/main/java/page_helpers/HomePageHelper.java",
+   "code/QA38_Phonebook_v2/src/main/java/page_helpers/UserHelper.java",
+   "code/QA38_Phonebook_v2/src/main/resources/application.properties",
+   "code/QA38_Phonebook_v2/src/test/java/phonebook/AddContactTests.java",
+   "code/QA38_Phonebook_v2/src/test/java/phonebook/BaseTest.java",
+   "code/QA38_Phonebook_v2/src/test/java/phonebook/DeleteContactTests.java",
+   "code/QA38_Phonebook_v2/src/test/java/phonebook/HomePageTests.java",
+   "code/QA38_Phonebook_v2/src/test/java/phonebook/LoginTests.java",
+   "code/QA38_Phonebook_v2/src/test/resources/logback.xml",
+   "code/QA38_Phonebook_v2/build.gradle"
+  ]
+}
