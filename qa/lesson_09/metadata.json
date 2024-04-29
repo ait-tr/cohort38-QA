@@ -1,0 +1,10 @@
+{
+  "plan": "plan.md",
+  "homework": "homework.md",
+  "code": [
+    "code/QA38_Phonebook_v3/src/main/java/page/BasePage.java",
+    "code/QA38_Phonebook_v3/src/main/java/page/LoginPage.java",
+    "code/QA38_Phonebook_v3/src/test/java/com/ait/qa/tests/BaseTest.java",
+    "code/QA38_Phonebook_v3/src/test/java/com/ait/qa/tests/LoginTests.java"
+  ]
+}
