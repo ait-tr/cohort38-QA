@@ -1,0 +1,12 @@
+{
+  "plan": "plan.md",
+  "homework": "homework.md",
+  "code": [
+   "code/DemoQA_POM/src/main/java/page/AlertsPage.java",
+   "code/DemoQA_POM/src/main/java/page/LeftPannel.java",
+   "code/DemoQA_POM/src/main/java/page/HomePage.java",
+   "code/DemoQA_POM/src/main/java/page/BasePage.java",
+   "code/DemoQA_POM/src/test/java/AlertsTests.java",
+   "code/DemoQA_POM/src/test/java/BaseTest.java"
+  ]
+}
