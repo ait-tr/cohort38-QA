@@ -1,0 +1,27 @@
+{
+  "plan": "plan.md",
+  "homework": "homework.md",
+  "theory": "theory.md",
+  "code": [
+    "code/QA38_DemoQA_POM/src/main/java/page/AlertsPage.java",
+    "code/QA38_DemoQA_POM/src/main/java/page/BasePage.java",
+    "code/QA38_DemoQA_POM/src/main/java/page/BrokenLinksImagesPage.java",
+    "code/QA38_DemoQA_POM/src/main/java/page/BrowserWindowsPage.java",
+    "code/QA38_DemoQA_POM/src/main/java/page/DroppablePage.java",
+    "code/QA38_DemoQA_POM/src/main/java/page/HomePage.java",
+    "code/QA38_DemoQA_POM/src/main/java/page/LeftPannel.java",
+    "code/QA38_DemoQA_POM/src/main/java/page/PracticeFormPage.java",
+    "code/QA38_DemoQA_POM/src/main/java/page/SelectMenuPage.java",
+    "code/QA38_DemoQA_POM/src/main/java/page/UploadAndDownloadPage.java",
+    "code/QA38_DemoQA_POM/pipeline/demo_qa_pipeline.groovy",
+    "code/QA38_DemoQA_POM/build.gradle",
+    "code/QA38_DemoQA_POM/src/test/java/UploadAndDownloadTests.java",
+    "code/QA38_DemoQA_POM/src/test/java/SelectMenuTests.java",
+    "code/QA38_DemoQA_POM/src/test/java/PracticeFormTests.java",
+    "code/QA38_DemoQA_POM/src/test/java/DroppableTests.java",
+    "code/QA38_DemoQA_POM/src/test/java/BrowserWindowsTests.java",
+    "code/QA38_DemoQA_POM/src/test/java/BaseTest.java",
+    "code/QA38_DemoQA_POM/src/test/java/BrokenLinksImagesTests.java",
+    "code/QA38_DemoQA_POM/src/test/java/AlertsTests.java"
+  ]
+}
