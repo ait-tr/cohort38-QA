@@ -1,6 +1,6 @@
-import com.ait.qa.page.HomePage;
-import com.ait.qa.page.LeftPannel;
-import com.ait.qa.page.PracticeFormPage;
+import page.HomePage;
+import page.LeftPannel;
+import page.PracticeFormPage;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;

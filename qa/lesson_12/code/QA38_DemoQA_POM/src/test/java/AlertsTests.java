@@ -1,6 +1,6 @@
-import com.ait.qa.page.AlertsPage;
-import com.ait.qa.page.HomePage;
-import com.ait.qa.page.LeftPannel;
+import page.AlertsPage;
+import page.HomePage;
+import page.LeftPannel;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

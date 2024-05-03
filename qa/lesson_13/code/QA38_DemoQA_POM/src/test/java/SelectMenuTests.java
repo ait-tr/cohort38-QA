@@ -1,6 +1,6 @@
-import com.ait.qa.page.HomePage;
-import com.ait.qa.page.LeftPannel;
-import com.ait.qa.page.SelectMenuPage;
+import page.HomePage;
+import page.LeftPannel;
+import page.SelectMenuPage;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;

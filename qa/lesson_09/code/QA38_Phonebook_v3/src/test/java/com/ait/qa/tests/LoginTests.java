@@ -1,4 +1,4 @@
-package com.ait.qa.tests;
+package tests;
 
 import org.junit.jupiter.api.Test;
 import page.LoginPage;

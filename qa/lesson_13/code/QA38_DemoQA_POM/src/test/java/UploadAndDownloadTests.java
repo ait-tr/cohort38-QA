@@ -1,6 +1,6 @@
-import com.ait.qa.page.HomePage;
-import com.ait.qa.page.LeftPannel;
-import com.ait.qa.page.UploadAndDownloadPage;
+import page.HomePage;
+import page.LeftPannel;
+import page.UploadAndDownloadPage;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;

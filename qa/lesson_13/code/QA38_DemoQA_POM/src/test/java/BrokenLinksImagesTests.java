@@ -1,11 +1,10 @@
-import com.ait.qa.page.BrokenLinksImagesPage;
-import com.ait.qa.page.HomePage;
-import com.ait.qa.page.LeftPannel;
+import page.BrokenLinksImagesPage;
+import page.HomePage;
+import page.LeftPannel;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
-
 
 @Tag("@BrokenLinksImagesTests")
 @Tag("@ALL")
