@@ -1,0 +1,19 @@
+{
+  "plan": "plan.md",
+  "homework": "homework.md",
+  "code": [
+    "code/QA38_DemoQA_POM/src/main/java/com/ait/qa/page/BasePage.java",
+    "code/QA38_DemoQA_POM/src/main/java/com/ait/qa/page/BrowserWindowsPage.java",
+    "code/QA38_DemoQA_POM/src/main/java/com/ait/qa/page/DroppablePage.java",
+    "code/QA38_DemoQA_POM/src/main/java/com/ait/qa/page/HomePage.java",
+    "code/QA38_DemoQA_POM/src/main/java/com/ait/qa/page/LeftPannel.java",
+    "code/QA38_DemoQA_POM/src/main/java/com/ait/qa/page/PracticeFormPage.java",
+    "code/QA38_DemoQA_POM/src/main/java/com/ait/qa/page/SelectMenuPage.java",
+    "code/QA38_DemoQA_POM/src/main/java/com/ait/qa/page/AlertsPage.java",
+    "code/QA38_DemoQA_POM/src/test/java/AlertsTests.java",
+    "code/QA38_DemoQA_POM/src/test/java/BaseTest.java",
+    "code/QA38_DemoQA_POM/src/test/java/BrowserWindowsTests.java",
+    "code/QA38_DemoQA_POM/src/test/java/DroppableTests.java",
+    "code/QA38_DemoQA_POM/src/test/java/SelectMenuTests.java"
+  ]
+}
