@@ -12,38 +12,93 @@
 
 Сборка может быть запущена разными способами, например, по событию фиксации изменений в системе управления версиями, по расписанию, по запросу на определённый URL, после завершения другой сборки в очереди
 
-[POM](https://docs.google.com/presentation/d/1H4w1nVSEH6pJAaPTpWR2T7HuI-uwVpyajw0stH_nPV8/edit?usp=drive_link)
+- [PageObjectModel [презентация]](https://docs.google.com/presentation/d/1H4w1nVSEH6pJAaPTpWR2T7HuI-uwVpyajw0stH_nPV8/edit?usp=drive_link)
 
-[Настройка Jenkins](https://docs.google.com/presentation/d/1VC2QYUCiHkzPsQtLmJ_k-zn8T13MrgXY/edit?usp=sharing&ouid=116447005932578256378&rtpof=true&sd=true)
+- [Jenkins и его настройка [презентация]](https://docs.google.com/presentation/d/1VC2QYUCiHkzPsQtLmJ_k-zn8T13MrgXY/edit?usp=sharing&ouid=116447005932578256378&rtpof=true&sd=true)
 
-[jenkins.exe download](https://www.jenkins.io/download/)
+- [Jenkins.exe, скачать LTS [ссылка на офф. сайт]](https://www.jenkins.io/download/)
 
-[gradle download](https://gradle.org/releases/)
+- [Java Development Kit (JDK), скачать [ссылка на офф. сайт]]( https://www.oracle.com/java/technologies/downloads/)
 
-[maven download](https://maven.apache.org/download.cgi)
+- [Git, скачать [ссылка на офф. сайт]]( https://git-scm.com/download/)
 
-**C:\Program Files\Java\jdk-11** jdk-11
+- [Gradle Build Tool, скачать binary-only файл [ссылка на офф. сайт]](https://gradle.org/releases/)
 
-**C:\Program Files\Git\bin\git.exe** Git
+- [Maven Build Tool, скачать Binary-zip-archive файл [ссылка на офф. сайт]](https://maven.apache.org/download.cgi)
 
-**C:\Tools\gradle-8.7** gradle-8.7
+*** 
+### Проверить версию Java:
+```
+На Windows:
+java --version
+На MacOS:
+java -version
+```
+### Найти папку, в которую установлен Java JDK на macOS:
+```
+/usr/libexec/java_home -v
+```
+### Проверить версию Git:
+```
+git –version
+```
+### Найти папку, в которую установлен Git на macOS:
+```
+which git
+или
+whereis git
+```
+*** 
 
-**C:\Tools\apache-maven-3.9.6** apache-maven-3.9.6
-
-**folder_name/build/test-results/*/*.xml** Test report XMLs
-
-**java -jar jenkins.war** запуск сервера Jenkins
-
-**http://localhost:8080/** ссылка для доступа к интерфейсу Jenkins
-
-**@echo off
+### jdk-11
+```
+C:\Program Files\Java\jdk-11
+```
+### Git на Windows
+```
+C:\Program Files\Git\bin\git.exe 
+```
+### Git на MacOS
+```
+/usr/bin/git 
+```
+### gradle-8.7
+```
+C:\Tools\gradle-8.7 
+```
+### apache-maven-3.9.6
+```
+C:\Tools\apache-maven-3.9.6 
+```
+### Test report XMLs
+```
+***имя_папки_проекта_если _она_есть***/build/test-results/*/*.xml
+```
+***
+### Запуск сервера Jenkins из командной строки из папки с файлом jenkins.war
+```
+java -jar jenkins.war
+на MacOS иногда такая команда требуется:
+java -jar jenkins.war --enable-future-java
+```
+### Ссылка для доступа к веб-интерфейсу Jenkins в браузере
+```
+http://localhost:8080/
+```
+*** 
+### Запрашивает порт для запуска Jenkins у пользователя
+``` 
+@echo off
 set /p PORT=Enter new port for launch Jenkins:
-java -jar jenkins.war --httpPort=%PORT%**  - запрашивает порт для запуска Jenkins у пользователя
-
-**@echo off
+java -jar jenkins.war --httpPort=%PORT%
+```
+### Запрашивает у пользователя какой порт освободить
+``` 
+@echo off
 set /p port="Enter the port number: "
 for /f "tokens=5" %%a in ('netstat -aon ^| findstr :%port%') do (
 taskkill /PID %%a /F
 )
 echo Processes on port %port% have been terminated.
-Pause** - запрашивате у пользователя какой порт освободить
+Pause
+```
