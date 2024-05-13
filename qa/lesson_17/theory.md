@@ -88,7 +88,9 @@ ilCarro collection
 
 [Скачать The Postman app](https://www.postman.com/downloads/)
 
-[Swagger ilcarro](https://ilcarro-backend.herokuapp.com/swagger-ui/index.html#/)
+Swagger [ilcarro](https://ilcarro-backend.herokuapp.com/swagger-ui/index.html#/)
+
+Swagger [PHONEBOOK](https://contactapp-telran-backend.herokuapp.com/swagger-ui/index.html)
 
 [Презентация API-Testing.Postman](https://docs.google.com/presentation/d/1MQScNG0ov11tGNFSFt5mDV-Gp5f-pQF8iiHMPTzBClk/edit?usp=share_link)
 
