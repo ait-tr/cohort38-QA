@@ -1,0 +1,16 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/QA38_Phonebook_API_REST_ASSURED/src/main/java/com/phonebook/AllContactsDto.java",
+    "code/QA38_Phonebook_API_REST_ASSURED/src/main/java/com/phonebook/AuthRequestDto.java",
+    "code/QA38_Phonebook_API_REST_ASSURED/src/main/java/com/phonebook/AuthResponseDto.java",
+    "code/QA38_Phonebook_API_REST_ASSURED/src/main/java/com/phonebook/ContactDto.java",
+    "code/QA38_Phonebook_API_REST_ASSURED/src/main/java/com/phonebook/ErrorDto.java",
+    "code/QA38_Phonebook_API_REST_ASSURED/src/test/java/com/phonebook/testsRA/GetAllContactsTest.java",
+    "code/QA38_Phonebook_API_REST_ASSURED/src/test/java/com/phonebook/testsRA/LoginTestRA.java",
+    "code/QA38_Phonebook_API_REST_ASSURED/src/test/java/com/phonebook/testsRA/TestBase.java",
+	"code/QA38_Phonebook_API_REST_ASSURED/build.gradle"
+  ]
+}
