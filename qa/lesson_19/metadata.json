@@ -1,0 +1,10 @@
+{
+  "plan": "plan.md",
+  "code": [
+    "code/QA38_AppiumFirstTest/src/test/java/FirstCalcTests.java",
+    "code/QA38_AppiumFirstTest/src/test/resources/mobiCalculatorApp.apk",
+    "code/QA38_AppiumFirstTest/build.gradle"
+  ],
+  "homework": "homework.md",
+  "video": ""
+}
