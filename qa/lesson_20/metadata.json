@@ -1,0 +1,14 @@
+{
+  "plan": "plan.md",
+  "code": [
+    "code/QA38_Appium_Clock/src/main/java/core/AppiumServerStarter.java",
+    "code/QA38_Appium_Clock/src/main/java/core/AppManager.java",
+    "code/QA38_Appium_Clock/src/main/java/pages/BasePage.java",
+    "code/QA38_Appium_Clock/src/main/java/pages/ClockPage.java",
+    "code/QA38_Appium_Clock/src/test/java/BaseTest.java",
+    "code/QA38_Appium_Clock/src/test/java/ClockPageTest.java",
+    "code/QA38_Appium_Clock/build.gradle"
+  ],
+  "homework": "homework.md",
+  "video": ""
+}
